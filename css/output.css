@@ -1,0 +1,30 @@
+ion-icon {
+  font-size: 25px; }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  margin-bottom: 2%; }
+  .header :first-child {
+    color: gray; }
+
+.col-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.content-box {
+  text-align: center;
+  width: 46%;
+  height: 175px;
+  margin: 2%; }
+  .content-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7%;
+    border: 1px solid gray; }
+
+/*# sourceMappingURL=output.css.map */
