@@ -1,0 +1,136 @@
+
+
+
+
+
+
+
+
+.dayButton {
+  display: none;
+}
+
+
+
+
+
+
+
+.search {
+  font-size: 28px;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 2px;
+  color: white;
+}
+
+
+
+
+
+body {
+  background-color: #243447;
+    font-family: helvetica;
+}
+.header {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  margin-bottom: 2%;
+  background-color: #9B9B9B;
+  color: black;
+  border-radius: 2px;
+}
+.headerLeft {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .tracks {
+    width: 50%;
+  }
+
+  .night {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 40%;
+    justify-content: flex-end;
+    img {
+      height: 80%;
+    }
+    ion-icon {
+
+      height: 80%;
+      width: 40px;
+    }
+  }
+.lesson-header {
+  text-align: center;
+  color: white;
+
+}
+
+.lesson-subhead {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin:10%;
+  margin-bottom: -25px;
+  .hr {
+    width: 35%;
+  }
+  .weekend {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+  }
+}
+
+.lesson-body {
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 70px;
+  width: 80%;
+  color: white;
+
+
+
+  li {
+    display: flex;
+    align-items: center;
+  list-style: none;
+  img {
+    width: 30px;
+    height: auto;
+    padding-right: 10px;
+  }
+}
+
+}
+.botLogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  img {
+    height: 80px;
+  }
+}
+
+.white-bg {
+  background-color: white;
+  color: black;
+}
+.dark-bg {
+  background-color: #243447;
+  color: white;
+}
